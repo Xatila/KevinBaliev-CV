@@ -399,20 +399,24 @@ footer a:hover {
   align-items: center;
   padding: 50px;
   background-image: url("certBack.jpg");
+  border-radius: 10px;
 }
 
 .certificate {
   width: 300px;
   height: 420px;
-  border-radius: 10px;
   overflow: hidden;
   margin: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
+  border: solid 2px;
 }
 
 .certificate:hover {
+  
+  border-color: #fff;
   transform: scale(1.05);
+  
 }
 
 .certificate img {
@@ -446,6 +450,7 @@ footer a:hover {
 
   .refernce-card {
     width: calc(50% - 20px);
+    padding: 15px;
   }
   .card-body{
     width: 100%;
