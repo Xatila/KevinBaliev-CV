@@ -110,7 +110,7 @@ color: #222;
   color: #1e88e5;
   cursor: pointer;
 }
-.skills-container {
+.skillsAndXP-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -119,47 +119,7 @@ color: #222;
   margin: 0 auto;
 }
 
-.skill-card {
-  width: 300px;
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 30px;
-  text-align: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  margin-top: 15px;
-}
-
-.skill-card:hover {
-  transform: translateY(-10px);
-}
-
-.skill-card img {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 20px;
-}
-
-.skill-card h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.skill-card p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.experience-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.experience-card {
+.skillAndXp-card {
   width: 500px;
   background-color: #fff;
   border-radius: 10px;
@@ -169,42 +129,42 @@ color: #222;
   transition: transform 0.3s ease;
 }
 
-.experience-card:hover {
+.skillAndXp-card:hover {
   transform: translateY(-10px);
 }
 
-.experience-card h3 {
+.skillAndXp-card h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.experience-card h4 {
-  font-size: 20px;
+.skillAndXp-card h4 {
+  font-size: 26px;
   margin-bottom: 10px;
   color: #666;
 }
 
-.experience-card p {
-  font-size: 16px;
+.skillAndXp-card p {
+  font-size: 24px;
   margin-bottom: 20px;
   color: #666;
+  line-height: 1.5;
 }
 
-.experience-card ul {
-  margin-left: 20px;
+.skillAndXp-card ul {
+  margin-left: 24px;
   margin-bottom: 0;
 }
 
-.experience-card li {
-  font-size: 16px;
+.skillAndXp-card li {
+  font-size: 20px;
   line-height: 1.5;
   color: #666;
 }
-.experience-card img{
-    width: 100px;
-  height: 100px;
-  margin-top: 20px;
-  margin-left: 70%;
+.skillAndXp-card img{
+    width: 180px;
+  height: 180px;
+  margin-left: 34%;
 }
 /* References */
 .refernce-card {
@@ -321,6 +281,7 @@ footer a:hover {
 
 /* Media queries */
 @media screen and (max-width: 600px) {
+  
   .navbar a:hover {
     background-color: #1e88e5;
     color: #fff;
@@ -391,16 +352,19 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-    
+  .container{
+    padding: 10px;
+  }
     .about-container img {
         width: 200px;
         height: 200px;
     }
   .certificate {
     object-fit: cover;
+    width: 280px;
   }
   .certificate, img{
-    height: 420px;
+    height: 400px;
     width: 100%;
   }
 
@@ -433,7 +397,7 @@ footer a:hover {
 }
 
 @media (max-width: 480px) {
-  
+
 }
 .refernce-container {
   display: flex;
