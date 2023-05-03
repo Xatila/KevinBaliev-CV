@@ -134,25 +134,25 @@ color: #222;
 }
 
 .skillAndXp-card h3 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 
 .skillAndXp-card h4 {
-  font-size: 26px;
+  font-size: 22px;
   margin-bottom: 10px;
   color: #666;
 }
 
 .skillAndXp-card p {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #666;
   line-height: 1.5;
 }
 
 .skillAndXp-card ul {
-  margin-left: 24px;
+  margin-left: 22px;
   margin-bottom: 0;
 }
 
@@ -162,9 +162,10 @@ color: #222;
   color: #666;
 }
 .skillAndXp-card img{
-    width: 180px;
-  height: 180px;
-  margin-left: 34%;
+    width: 120px;
+  height: 120px;
+  margin-left: 40%;
+  margin-bottom: 5px;
 }
 /* References */
 .refernce-card {
@@ -352,6 +353,28 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+  .skillAndXp-card img{
+  margin-left: 33%;
+}
+.skillAndXp-card h3 {
+  font-size: 20px;
+}
+
+.skillAndXp-card h4 {
+  font-size: 18px;
+}
+
+.skillAndXp-card p {
+  font-size: 14px;
+}
+
+.skillAndXp-card ul {
+  margin-left: 18px;
+}
+
+.skillAndXp-card li {
+  font-size: 16px;
+}
   .container{
     padding: 10px;
   }
@@ -364,7 +387,7 @@ footer a:hover {
     width: 280px;
   }
   .certificate, img{
-    height: 400px;
+    height: 410px;
     width: 100%;
   }
 
