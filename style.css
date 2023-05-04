@@ -258,6 +258,7 @@ footer a:hover {
   width: 100%;
   background-color: #333;
   font-family: Arial, sans-serif;
+  z-index: 1000;
 }
 
 .navbar a {
